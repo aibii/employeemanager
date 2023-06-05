@@ -1,0 +1,11 @@
+POST http://localhost:4000/employees/add
+//we were able to take this payload and send it to our server
+Content-Type: application/json
+
+{
+    "email": "daniel@get.com",
+    "imageUrl": "https://bootdey.com/img/Content/avatar/avatar1.png",
+    "jobTitle": "JavaScript",
+    "name": "Daniel Craig",
+    "phone": "453848584"
+}
